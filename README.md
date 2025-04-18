@@ -1,1 +1,11 @@
 # Exercicio-HTML-Curriculo
+- Crie uma pagina com a estrutura básica HTML5.
+- Essa pagina terá a estrutura básica do seu currículo
+  - Sobre você
+  - Experiências profissionais
+  - Experiências academicas
+- Essa página terá a estrutura básica dos seus conhecimentos na área de programação
+  - Quais linguagens você já aprendeu
+    - O que de cada linguagem?
+- Essa página terá links para o seu linkedin e para o seu GitHub
+- Essa página devera ter imagens, como uma imagem para o Linkedin, outra para o Github, tal qual uma imagem de apresentação sua    
