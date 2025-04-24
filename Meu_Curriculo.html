@@ -4,24 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculo</title>
+    <link rel="stylesheet" href="./Meu_Curriculo.css">
+    <style>
+        header {
+            background-color:aliceblue;
+            padding: 20px;
+            position: fixed;
+            justify-content: center;
+        }
+
+        footer{
+            background-color: aliceblue;
+            padding: 20px;
+        }
+    </style>
 </head>
 <body>
-    <img src="./Foto.jpg" alt="Foto de Martin Carl" width="100">
-    <h1>MARTIN LUCAS CARL</h1>
+    <div>
+    <header>    
+        <a href="#fotoPerfil">MARTIN LUCAS CARL</a> <a href="#Sobre_mim">Sobre mim</a>
+        <a href="#ExperienciasProfissionais">Experiencias profissionais</a>
+        <a href="#experienciasProfissionais">Experiencias Academicas</a>
+        <a href="#conhecimentos">Conhecimentos na área de programação</a>
+        <a href="#Contatos">Contatos</a>
+        </header>
+    </div>
+
+    <img 
+        class="imagem-arredondada"
+        id="fotoPerfil"
+        src="./Foto.jpg" alt="Foto de Martin Carl" width="50px">
+
+    <section id="Sobre_mim">
     <h4>Sobre mim</h4>
     <p>Sou um programador em desenvolvimento, gosto de aprender coisas novas, atualmente trabalho na Unifique no TI, embora fazendo
         um trabalho mais administrativo. Gostaria de realizar a migração de carreira para a área de programação, para que eu possa
         trabalhar de casa no conforto e segurança e ter mais liberdades de horário, rotina e tempo para minha vida pessoal.
         <br/> Meus gostos variam entre filmes, series, desenhos e jogos.
     </p>
-    <h4>Experiencias profissionais</h4>
+    </section>
+
+    <h4 id="ExperienciasProfissionais">Experiencias profissionais</h4>
     <ol>
         <li>Operador de caixa - Komprao Koch Atacadista - 9 meses</li>
         <li>Analista de Suporte Técnico - Unifique - 2 anos e 4 meses</li>
         <li>Assistente de TI - Unifique - 7 meses</li>
         <li>Administrativo de TI - Unifique - Atual</li>
     </ol>
-    <h4>Experiencias academicas</h4>
+
+    <h4 id="experienciasProfissionais">Experiencias academicas</h4>
     <ul>
         <li>Curso Técnico em Administração - CEDUP HERMANN HERING - Concluído</li>
         <li>Curso Tecnico em Algoritmos e lógica de programação - Udemy Alumni - Concluído</li>
@@ -29,7 +60,7 @@
         <li>Curso Técnico em Java - Entra21 - Em andamento</li>
         <li>Graduação em Analise e Desenvolvimento de Sistemas - Uniasselvi - Em andamento</li>
     </ul>
-    <h2>Conhecimentos na área de programação</h2>
+    <h2 id="conhecimentos">Conhecimentos na área de programação</h2>
     <p>
         Java - Lógica e Orientação a Objetos <br>
         Python - Lógica <br>
@@ -38,9 +69,17 @@
         C++ - Lógica <br>
         Git & GitHub - Uso, versionamento e commit
     </p>
-    <img src="./Logo_GitHub.png" alt="Logo do GitHub" width="20">
-    <a href="http://github.com/Moucalou" target="_blank">GitHub</a>
-    <img src="./Logo_Linkedin.webp" alt="Logo Linkedin" width="25">
-    <a href="https://www.linkedin.com/in/martin-lucas-carl-6a53a01b6/" target="_blank">Linkedin</a>
+    
+    <footer>
+        <p id="Compania">&copy; 2025 Mouca Corp. Todos os direitos reservados.</p>
+        <section id="Contatos">
+            <img src="./Logo_GitHub.png" alt="Logo do GitHub" width="20">
+            <a href="http://github.com/Moucalou" target="_blank">GitHub</a>
+            <img src="./Logo_Linkedin.webp" alt="Logo Linkedin" width="25">
+            <a href="https://www.linkedin.com/in/martin-lucas-carl-6a53a01b6/" target="_blank">Linkedin</a>
+            <span class="espacamento">E-mail: moucalou@gmail.com</span>
+            <span>Contato: (47) 9 9716-1926</span>
+            </section>
+      </footer>
 </body>
 </html>

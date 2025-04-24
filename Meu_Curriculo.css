@@ -1,0 +1,22 @@
+header a {
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+
+.espacamento {
+    margin: 5px;
+}
+
+header {
+    position: fixed;
+}
+
+#Compania {
+    text-align: center;
+}
+
+.imagem-arredondada {
+    border-radius: 50%;
+    margin-top: 80px;
+}
